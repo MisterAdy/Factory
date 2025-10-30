@@ -1,0 +1,25 @@
+# Node
+node_modules/
+.pnpm-store/
+.next/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Env files
+.env
+.env.local
+
+# Editor
+.idea/
+.vscode/
+.DS_Store
+
+# Playwright artifacts
+playwright-report/
+trace.zip
+
+# Docker volumes
+langfuse_db/

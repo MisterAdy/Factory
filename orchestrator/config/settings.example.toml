@@ -1,0 +1,10 @@
+# Copy to settings.toml and customize per environment
+[orchestrator]
+loop_interval_seconds = 10
+project_root = "../projects"
+inbox_glob = ".mail/inbox/*.md"
+outbox_dir_name = ".mail/outbox"
+log_level = "INFO"
+
+[budgets]
+warn_threshold = 0.9
